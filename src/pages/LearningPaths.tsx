@@ -3,7 +3,7 @@ import { useSearchParams, Link } from 'react-router-dom';
 import { useLearningPaths } from '../hooks/useLearningPaths';
 import { useLanguages } from '../hooks/useLanguages';
 import { useStartLearningPath } from '../hooks/useProgress';
-import { Clock, BookOpen, Target, Users, ArrowRight, Loader2 } from 'lucide-react';
+import { Clock, BookOpen, Target, Users, Loader2 } from 'lucide-react';
 
 const LearningPaths: React.FC = () => {
   const [searchParams] = useSearchParams();

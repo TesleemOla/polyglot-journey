@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
-import { BookOpen, Users, Brain, Trophy, ArrowRight, Globe, Clock, Star } from 'lucide-react';
+import { Brain, Trophy, ArrowRight, Globe, Clock } from 'lucide-react';
 
 const Home: React.FC = () => {
   const { isAuthenticated } = useAuth();
