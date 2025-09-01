@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // add website base url here
-const API_BASE_URL = 'http://localhost:5000/api';
+const API_BASE_URL = "https://learnpath-gemini.onrender.com/api";
 
 export const api = axios.create({
   baseURL: API_BASE_URL,
